@@ -1,6 +1,12 @@
 Plain text notes 
 ====================
 
+.. contents:: Overview
+   :depth: 2
+   :local: 
+
+Quickstart 
+--------------------
 Plain text notes is my personal format for note taking. It works best for coding, but well for other topics. An explanation in X points:
 
 *  plain text
@@ -53,7 +59,8 @@ You should also feel that the writing might not be perfectly clear to you. You w
 
 You should also see the reason for the 80 character soft limit. If it does not kill you to keep it to 80 characters, then it much nice to read. When I was first learning what exactly a commit was doing, I could not fit it in 80 characters. That is fine. 
 
-Plain text notes as a full spec. 
+Plain text notes as a full spec.
+----------------------------------- 
 
 *  File type: utf-8 encoded plain text 
 *  Writing style: Prefer phrases to complete sentence. Maximum clarity with minimum text.
@@ -72,7 +79,8 @@ Plain text notes as a full spec.
       * The sub statements are preceded by <> and one space.
 
       .. code-block:: text 
-         
+         :caption: <Topic> <subtopic>.txt
+
                   <Section name>
 
          <Paragraph name>
@@ -93,3 +101,13 @@ Plain text notes as a full spec.
 *  (Recommended) Soft limit of 80 characters per line. 
 
 Useful patterns for taking coding notes.
+------------------------------------------
+
+.. code-block:: text 
+   :caption: Good defaults as statement. Less frequent ones as substatements.
+
+   git commands 
+   log --oneline = show the current log with 1 commit per line
+   <> log --graph --decorate --oneline = draws text based graph, adds the 
+   names of branches or tags
+   <> log <file_path> = shows commit history for file 
