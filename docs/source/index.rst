@@ -3,9 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to plain_text_notes's documentation!
+Welcome to Plain Text Notes!
 ============================================
 
+This is a blog for Edward Girling. It is still experimental so mind the mess. 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
