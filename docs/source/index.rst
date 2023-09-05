@@ -1,0 +1,21 @@
+.. plain_text_notes documentation master file, created by
+   sphinx-quickstart on Mon Sep  4 18:32:22 2023.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to plain_text_notes's documentation!
+============================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   general/plain_text_notes
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
