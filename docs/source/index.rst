@@ -10,7 +10,7 @@ This is a blog for Edward Girling. It is still experimental so mind the mess.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Articles:
 
    general/plain_text_notes
 

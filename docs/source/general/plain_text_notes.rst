@@ -9,7 +9,7 @@ PLEASE PARDON THE MANY TYPOS. THIS IS STILL UNDER CONSTRUCTION.
 
 Quickstart 
 --------------------
-Plain Text Notes is my personal format for note taking. It works best for coding, but well for other topics. An explanation in 4 points:
+Plain Text Notes is my personal format for note taking. It works best for coding, but well for other topics. I think it could work well for a lot of coders. An explanation in 4 points:
 
 *  plain text
 *  Writing style: concise to terse 
@@ -19,7 +19,7 @@ Plain Text Notes is my personal format for note taking. It works best for coding
 An example of my notes on git from when I was just learning it
 
 .. code-block:: text 
-   :caption: git.txt
+   :caption: notes/git.txt
 
             git
 
@@ -55,9 +55,9 @@ An example of my notes on git from when I was just learning it
    checkout -b <NEW_BRANCH> = in local repo create branch "new branch" based 
    on last commit from master.
 
-You should feel like the text is too dense and the sections are very clear. Plain Text Notes format is for your personal notes. As a coder you will read a lot. Whether for learning purposes or to have a section of documentation that is more convenient for you, you should create a ton of notes. Since you will have a lot of text, you want it to be very compact but easily navigable.  You can navigate section to section very easily since they are visible and you made them all, and when you get to the right section, you want it all on the screen.  
+You should feel like the text with in sections is too dense and the section breaks are very clear. Plain Text Notes is for your personal notes. As a coder you will read a lot. Whether to learn or to clarify some existing documentation, you should create a lot notes. Since you will have a lot of text, you want it to be very compact but easily scannable.  Hence, the clear section breaks and dense sections.  
 
-You should also feel that the writing is not be perfectly clear to you. You want to write the minimum so that YOU can look back at it in 3-6 months and know exactly what you meant. 
+You should also feel that the writing is not be perfectly clear to you. You want to write the minimum amount so that YOU can look back at it in 3-6 months and know exactly what you meant. 
 
 You should also see the reason for the 80 character soft limit. If it does not kill you to keep it to 80 characters, then it much nicer to read. When I was first learning what exactly a commit was doing, I could not fit it in 80 characters. That is fine. See the line that starts: commit -m "<My Django Girls app, first commit>" ...
 
