@@ -59,7 +59,7 @@ You should feel like the text with in sections is too dense and the section brea
 
 You should also feel that the writing is not be perfectly clear to you. You want to write the minimum amount so that YOU can look back at it in 3-6 months and know exactly what you meant. 
 
-You should also see the reason for the 80 character soft limit. If it does not kill you to keep it to 80 characters, then it much nicer to read. When I was first learning what exactly a commit was doing, I could not fit it in 80 characters. That is fine. See the line that starts: commit -m "<My Django Girls app, first commit>" ...
+You should also see a reason for the 80 character soft limit. It is much nicer to read. Putting the character limit forces you to write with fewer words and break up complex statements into simpler ones. The character limit is soft because sometimes it's more trouble than it's worth. 
 
 Plain text notes as a full spec.
 ----------------------------------- 
@@ -125,12 +125,12 @@ Reasoning
 *  When I write notes, I target myself three to six months in the future. If I have not thought about something for a while I like to be able to pick back up right where I left off. Your memory is only so good. As of Summer 2023, I have 78 documents on things as mundane as git or as unusual as notes on Attention is All You Need, the paper that sparked the Transformer architecture for Natural Language Processing. Some are only a page, some are 8 pages. There is no way, I could remember all that, but I mostly can because I have my notes. Since there is so much, I need it the notes to be incredibly dense. So I write as concisely as possible with the target clarity in mind. 
 *  The substitution start and stop symbol allow you to separate syntax from input date with no context. You know exactly how to modify a shell command for use without looking at another line of the notes.  
 *  There are only 5 division levels (2 in the document title and 3 in the document) because you should not need any more. Generally a person can only hold a few things in the front of their mind. Try to hold more and some fall out the back. Where exactly the knowledge you are currently taking notes on falls in the grand organization of knowledge is just noise. You need to be able to connect it closely to something else you can generally place in the overall heireachry. 
-*  Starting the document with what section that is its name comes in handy. For me, it is useful when I have a ton of tabs open in my editor.  
+*  Starting the document with a section that is its name comes in handy. For me, it is useful when I have a ton of tabs open in my editor.  
 
 Closing thoughts 
 ---------------------
-If I have not yet convinced you to use my format, then make your own. Note taking really can become a super power whereby you expand your working memory immensely. 
+If I have not yet convinced you to use my format, then make your own. Note taking really can become a super power whereby you expand your working memory immensely.
 
-The first part of the process is having a format that works you. You may be tempted to put off coming up with a format, but my doing so you choke the growth of you notes which is proportional to their usefulness. I created the plain text notes on document 3 but  was not really convinced I needed a format until I had about 80 pages of notes spread across 20 documents. Your format should be easy for YOU to write. Don't worry about anyone but yourself. Writing is hard for me so that means few words, but the right ones.
+The first part of the process is having a format that works you. You may be tempted to put off coming up with a format, but not doing so you choke the growth of you notes which is proportional to their usefulness. I created the Plain Text Notes on document 3 but  was not really convinced I needed a format until I had about 80 pages of notes spread across 20 documents. Your format should be easy for YOU to write. Don't worry about anyone but yourself. Writing is hard for me so that means few words, but the right ones.
 
 The next part is using the notes. They are living documents that need effort to keep them alive. My notes usually lag my knowledge a bit, but not too much. I keep my notes synced between my work and personal computer so I can grow them at work or when working on a personal project. My work time tends to grow my esoteric knowledge of the mundane like a git command to do exactly what I need. My personal projects tend to grow the breadth like what is Mongo DB. 
