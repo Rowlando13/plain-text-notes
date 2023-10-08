@@ -122,11 +122,9 @@ Reasoning
 --------------------------
 
 *  Plain text is the fastest most reliable medium in the current era. You can open it on anything. I used to take notes in Google docs / MS word, but they were just to slow to open and I can't open them in my text editor. 
-*  When I write notes, I target myself three to six months in the future. If I have not thought about something for a while I like to be able to pick back up right where I left off. 
-//stopped editing here//
-Your memory is only so good. As of Summer 2023, I have 78 documents on things as mundane as git or as unusual as notes on Attention is All You Need, the paper that sparked the Transformer architecture for Natural Language Processing. Some are only a page, some are 8 pages. There is no way, I could remember all that, but I mostly can because I have my notes. Since there is so much, I need it the notes to be incredibly dense. So I write as concisely as possible with the target clarity in mind. 
-*  The substitution start and stop symbol allow you to separate syntax from input date with no context. You know exactly how to modify a shell command for use without looking at another line of the notes.  
-*  There are only 5 division levels (2 in the document title and 3 in the document) because you should not need any more. Generally a person can only hold a few things in the front of their mind. Try to hold more and some fall out the back. Where exactly the knowledge you are currently taking notes on falls in the grand organization of knowledge is just noise. You need to be able to connect it closely to something else you can generally place in the overall hierarchy. 
+*  When I write notes, I target myself three to six months in the future. If I have not thought about something for a while I like to be able to pick back up right where I left off. As of Summer 2023, I have 78 documents on things as mundane as git or as unusual as Attention is All You Need, a seminal paper for Natural Language Processing. Some are only a page, some are 8 pages. There is no way, I could remember all that, but I mostly can because I have my notes. Since there is so much, I need the notes to be incredibly dense. So I write as concisely as possible with the target clarity in mind. 
+*  The substitution start and stop symbol allow you to separate syntax from input data with no context. You know exactly how to modify a command for use without looking at another line of the notes.  
+*  There are only 5 division levels (2 in the document title and 3 in the document) because you should not need any more. With more levels, I spend to much time moving statements from level to level. 
 *  Starting the document with a section that is its name comes in handy. For me, it is useful when I have a ton of tabs open in my editor.  
 
 Closing thoughts 
