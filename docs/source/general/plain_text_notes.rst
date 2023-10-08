@@ -55,7 +55,7 @@ An example of my notes on git from when I was just learning it
    checkout -b <NEW_BRANCH> = in local repo create branch "new branch" based 
    on last commit from master.
 
-You should feel like the text with in sections is too dense and the section breaks are very clear. Plain Text Notes is for your personal notes. As a coder you will read a lot. Whether to learn or to clarify some existing documentation, you should create a lot notes. Since you will have a lot of text, you want it to be very compact but easily scannable.  Hence, the clear section breaks and dense sections.  
+You should feel like the text with in sections is too dense and the section breaks are very clear. Plain Text Notes is for your personal notes. As a coder you will read a lot. You should create a lot notes. Since you will have a lot of text, you want it to be very compact but easily scannable.  Hence, the clear section breaks and dense sections.  
 
 You should also feel that the writing is not be perfectly clear to you. You want to write the minimum amount so that YOU can look back at it in 3-6 months and know exactly what you meant. 
 
@@ -66,13 +66,13 @@ Plain text notes as a full spec.
 
 *  File type: utf-8 encoded plain text 
 *  Writing style: Prefer phrases to complete sentence. Maximum clarity with minimum text.
-*  File name: <topic> <subtopic> .txt , eg "Python 3 datetime.txt". The subtopic is optional.
+*  File name: <topic> <subtopic> .txt , eg "Python3 datetime.txt". The subtopic is optional.
 *  Symbol substitution:
 
       *  substitution start and stop symbol: ``<`` ``>`` 
       *  The command ``git status`` would be written as is since you just type it in. The command ``git remote add url`` would be written as git remote add <url.com>, since you have to replace <url.com> with an actual url. 
       *  The default substitution start and stop symbols may not be suitable for all conditions and can be set on a per document basis.
-      *  The text between < and > may hint at how the text is formatted it , eg git config --global user.email <you@gmail.com>. 
+      *  The text between < and > may hint at how the text is formatted in it , eg git config --global user.email <you@gmail.com>. 
 
 *  There are only 3 division levels available in a document. 
 
@@ -96,11 +96,11 @@ Plain text notes as a full spec.
 
          Commands: (All commands prefaced by git)
          add --all = adds all files to the staging area, except those removed by git ignore.
-         <> add file_name.txt = add file_name.txt to the staging area 
+         <> add file_name.txt = adds file_name.txt to the staging area 
          <> add -i = starts an interactive session to sort files into staging area 
 
-*  (Optional) The document may start with a section name that is the same as the document name.  
 *  (Recommended) Soft limit of 80 characters per line. 
+*  (Optional) The document may start with a section name that is the same as the document name.  
 
 Useful patterns for taking coding notes.
 ------------------------------------------
@@ -116,21 +116,23 @@ Useful patterns for taking coding notes.
 
 *  Start a topic with a document with no sub topic. When the document grows too large, split it into a 2 or more documents and add a sub topic. I rarely split documents. The documents can grow quite large since you know everything in them.
 
-*  Arrange lists alphabetically from the start. You don't often know how long a list will be until it is mostly done. 
+*  Arrange lists alphabetically from the start. You don't often know how long a list will be until it is mostly done.
 
 Reasoning
 --------------------------
 
-*  Plain text is the fastest most reliable medium in the current era. You can open it on anything. I used to take notes in Google docs / MS word, but they were just to slow to open and I can't open them in my editor. 
-*  When I write notes, I target myself three to six months in the future. If I have not thought about something for a while I like to be able to pick back up right where I left off. Your memory is only so good. As of Summer 2023, I have 78 documents on things as mundane as git or as unusual as notes on Attention is All You Need, the paper that sparked the Transformer architecture for Natural Language Processing. Some are only a page, some are 8 pages. There is no way, I could remember all that, but I mostly can because I have my notes. Since there is so much, I need it the notes to be incredibly dense. So I write as concisely as possible with the target clarity in mind. 
+*  Plain text is the fastest most reliable medium in the current era. You can open it on anything. I used to take notes in Google docs / MS word, but they were just to slow to open and I can't open them in my text editor. 
+*  When I write notes, I target myself three to six months in the future. If I have not thought about something for a while I like to be able to pick back up right where I left off. 
+//stopped editing here//
+Your memory is only so good. As of Summer 2023, I have 78 documents on things as mundane as git or as unusual as notes on Attention is All You Need, the paper that sparked the Transformer architecture for Natural Language Processing. Some are only a page, some are 8 pages. There is no way, I could remember all that, but I mostly can because I have my notes. Since there is so much, I need it the notes to be incredibly dense. So I write as concisely as possible with the target clarity in mind. 
 *  The substitution start and stop symbol allow you to separate syntax from input date with no context. You know exactly how to modify a shell command for use without looking at another line of the notes.  
-*  There are only 5 division levels (2 in the document title and 3 in the document) because you should not need any more. Generally a person can only hold a few things in the front of their mind. Try to hold more and some fall out the back. Where exactly the knowledge you are currently taking notes on falls in the grand organization of knowledge is just noise. You need to be able to connect it closely to something else you can generally place in the overall heireachry. 
+*  There are only 5 division levels (2 in the document title and 3 in the document) because you should not need any more. Generally a person can only hold a few things in the front of their mind. Try to hold more and some fall out the back. Where exactly the knowledge you are currently taking notes on falls in the grand organization of knowledge is just noise. You need to be able to connect it closely to something else you can generally place in the overall hierarchy. 
 *  Starting the document with a section that is its name comes in handy. For me, it is useful when I have a ton of tabs open in my editor.  
 
 Closing thoughts 
 ---------------------
 If I have not yet convinced you to use my format, then make your own. Note taking really can become a super power whereby you expand your working memory immensely.
 
-The first part of the process is having a format that works you. You may be tempted to put off coming up with a format, but not doing so you choke the growth of you notes which is proportional to their usefulness. I created the Plain Text Notes on document 3 but  was not really convinced I needed a format until I had about 80 pages of notes spread across 20 documents. Your format should be easy for YOU to write. Don't worry about anyone but yourself. Writing is hard for me so that means few words, but the right ones.
+The first part of the process is having a format that works you. You may be tempted to put off coming up with a format, but not doing so you choke the growth of you notes which is proportional to their usefulness. I created the Plain Text Notes on document number three but was not really convinced I needed a format until I had about 80 pages of notes spread across 20 documents. Your format should be easy for YOU to write. Writing is hard for me so that means few words, but the right ones.
 
-The next part is using the notes. They are living documents that need effort to keep them alive. My notes usually lag my knowledge a bit, but not too much. I keep my notes synced between my work and personal computer so I can grow them at work or when working on a personal project. My work time tends to grow my esoteric knowledge of the mundane like a git command to do exactly what I need. My personal projects tend to grow the breadth like what is Mongo DB. 
+The next part is using the notes. They are living documents that need effort to keep them alive. My notes usually lag my knowledge a bit, but not too much. I keep my notes synced between my work and personal computer so I can grow them at work or when working on a personal project. For me this is a must because work and play provide different things for the notes. My work time tends to grow my esoteric knowledge of the mundane like a git command to do exactly what I need. My personal projects tend to grow the breadth like what is Mongo DB. 
