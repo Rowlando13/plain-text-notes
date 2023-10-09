@@ -5,8 +5,6 @@ Plain Text Notes
    :depth: 2
    :local: 
 
-PLEASE PARDON THE MANY TYPOS. THIS IS STILL UNDER CONSTRUCTION.
-
 Quickstart 
 --------------------
 Plain Text Notes is my personal format for note taking. It works best for coding, but well for other topics. I think it could work well for a lot of coders. An explanation in 4 points:
@@ -131,6 +129,6 @@ Closing thoughts
 ---------------------
 If I have not yet convinced you to use my format, then make your own. Note taking really can become a super power whereby you expand your working memory immensely.
 
-The first part of the process is having a format that works you. You may be tempted to put off coming up with a format, but not doing so you choke the growth of you notes which is proportional to their usefulness. I created the Plain Text Notes on document number three but was not really convinced I needed a format until I had about 80 pages of notes spread across 20 documents. Your format should be easy for YOU to write. Writing is hard for me so that means few words, but the right ones.
+The first part of the process is having a format that works you. You may be tempted to put off coming up with a format, but not doing so will choke the growth of you notes which is proportional to their usefulness. I created Plain Text Notes on document number 3, and by 20 documents I was glad that I had. Your format should be easy for YOU to write. Writing is hard for me so that means few words, but the right ones.
 
-The next part is using the notes. They are living documents that need effort to keep them alive. My notes usually lag my knowledge a bit, but not too much. I keep my notes synced between my work and personal computer so I can grow them at work or when working on a personal project. For me this is a must because work and play provide different things for the notes. My work time tends to grow my esoteric knowledge of the mundane like a git command to do exactly what I need. My personal projects tend to grow the breadth like what is Mongo DB. 
+The next part is using the notes. They are living documents that need effort to stay alive. My notes usually lag my knowledge a bit, but not too much. I keep my notes synced between my work and personal computer so I can grow them at work or when working on a personal project. For me this is a must because work and play provide different things for the notes. My work time tends to grow my knowledge of the mundane like a git command to do exactly what I need. My personal projects tend to grow the breadth like MongoDB.
