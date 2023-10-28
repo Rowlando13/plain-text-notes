@@ -5,10 +5,15 @@ A short Git list
 
 Apologies for the many typos. This page is still under construction. 
 
-The best git reference docs: `Git Docs by Atlassian <https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init>`_
-They are concise and have great illustrations.
+A short list of git stuff to make everyday workflows easier. I only explain why I find each command particularly helpful. Also, please forgive the terse git messages. 
 
-A short list of git commands to make everyday workflows easier. I only explain why I find each command particularly helpful. Also, please forgive the terse git messages.  
+.. contents:: Overview
+   :depth: 2
+   :local: 
+
+Resources 
+-----------------------
+The best git reference docs: `Git Docs by Atlassian <https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init>`_ They are concise and have great illustrations.
 
 git log --oneline --all
 -------------------------
