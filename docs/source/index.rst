@@ -1,7 +1,4 @@
-.. plain_text_notes documentation master file, created by
-   sphinx-quickstart on Mon Sep  4 18:32:22 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. plain_text_notes 
 
 Welcome to Plain Text Notes!
 ============================================
@@ -13,6 +10,7 @@ This is a blog for Edward Girling. It is still experimental so mind the mess.
    :caption: Articles:
 
    general/plain_text_notes
+   general/a_small_git
 
 
 Indices and tables
