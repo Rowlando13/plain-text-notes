@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'plain_text_notes'
-copyright = '2023, Ed'
-author = 'Ed'
-release = '0.0.1'
+project = "plain_text_notes"
+copyright = "2023, Ed"
+author = "Ed"
+release = "0.0.1"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -22,9 +22,8 @@ extensions = [
     "sphinxemoji.sphinxemoji",
 ]
 
-templates_path = ['_templates']
+templates_path = ["_templates"]
 exclude_patterns = []
-
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -32,8 +31,7 @@ exclude_patterns = []
 
 html_theme = "sphinx_rtd_theme"
 html_theme_options = {
-    "display_version": True,
     "style_external_links": True,
     "style_nav_header_background": "#9B59B6",
 }
-html_static_path = ['_static']
+html_static_path = ["_static"]
