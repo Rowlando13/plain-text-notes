@@ -20,6 +20,7 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
     "sphinxemoji.sphinxemoji",
+    "myst_parser",
 ]
 
 templates_path = ["_templates"]

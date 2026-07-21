@@ -10,3 +10,4 @@ A blog for Edward Girling.
    :caption: Articles:
 
    general/plain_text_notes
+   general/just_enough_ssh.md
