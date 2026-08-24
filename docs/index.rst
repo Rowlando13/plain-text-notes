@@ -9,5 +9,7 @@ A blog for Edward Girling.
    :maxdepth: 2
    :caption: Articles:
 
+   click/click_docs_rewrite
+
    general/plain_text_notes
    general/just_enough_ssh.md
