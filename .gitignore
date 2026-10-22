@@ -1,6 +1,7 @@
 .DS_Store
 
 .idea/
+.ruff_cache
 cache/
 .vscode/
 *.code-workspace
