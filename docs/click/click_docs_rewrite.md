@@ -1,5 +1,7 @@
 # Click: Documentation Rewrite
 
+*Published: 22 October 2026*
+
 ## Click
 [Click](https://github.com/pallets/click/) is a widely used (10 million download a month) Python package used to build command line utilities.
 
@@ -85,7 +87,7 @@ Python documentation is traditionally written in ReStructured text, which is ver
 
 
 
-## Examples
+## Before and After
 These examples try to give the flavor of what was achieved in the rewrite. To see for yourself poke around in the [web archive](https://web.archive.org/web/20240128021053/https://click.palletsprojects.com/en/8.1.x/) and the [current docs](https://click.palletsprojects.com/en/stable/).
 
 The examples are provided from the web archive which can be slow so open links in a separate tab for best performance. Sections were removed so the reader can more easily compare the same text before and after
@@ -113,7 +115,7 @@ On the other hand arguments, unlike options, can accept an arbitrary number of a
 
 ```
 * [Parameters after](https://click.palletsprojects.com/en/stable/parameters/):
-```{toggle}
+````{toggle}
 Click supports only two principle types of parameters for scripts (by design): options and arguments.
 #### Options
 * Are optional.
@@ -134,10 +136,10 @@ Click supports only two principle types of parameters for scripts (by design): o
 
 
 **... Section Removed  ...**
-```
+````
 * Parameters analysis: 30 percent shorter (194 words vs 137 words) with no significant loss of meaning. More comprehensible format.
 * [Basic Options before](https://web.archive.org/web/20240128021053mp_/https://click.palletsprojects.com/en/8.1.x/options/#basic-value-options)
-
+````{toggle}
 The most basic option is a value option. These options accept one argument which is a value. If no type is provided, the type of the default value is used. If no default value is provided, the type is assumed to be STRING. Unless a name is explicitly specified, the name of the parameter is the first long option defined; otherwise the first short one is used. By default, options are not required, however to make an option required, simply pass in required=True as an argument to the decorator.
 
 ```{code-block} python
@@ -165,9 +167,9 @@ $ dots --n=2
 ..
 ```
 **... Section continues for another page...**
-
+````
 * [Basic options after](https://click.palletsprojects.com/en/stable/options/#basic-example)
-
+````{toggle}
 A simple click.Option takes one option name. By default, it’s assumed that the decorated function argument is not required and the expected type is str. If the decorated function takes a positional argument but the option is not passed with the command, then None is passed.
 ```{code-block} python
 @click.command()
@@ -189,6 +191,7 @@ Options:
   --text TEXT
   --help       Show this message and exit.
 ```
+````
 * Basic example analysis: The before section does too much. The point of a basic example to show a very minimal example of what a single option does in action and on the help page. The different ideas brought up in the before section are given their own concise sections.
 
 
@@ -220,7 +223,15 @@ Options:
 
 
 ## Tips for repeating the process
-* Form a plan
-* Shop it around
-* Run it all through the person who made the plan
-* Grind
+### General
+* Form goals and form consensus with the team about the goals. 7 tightly scoped goals is probably max.
+* Try very hard to get reviews for the the changes. This is not always possible, but great docs are best formed by multiple people since they serve people coming from many backgrounds.
+* If the project has a lot of docs, then the grind is real with a lot of the value coming when the process is totally done. So better to have a few goals and finish than have many and get halfway done.
+### Diataxis
+* This usually requires multiple passes.
+* In the first pass, for each subsection (the smallest section that has a heading), decide whether it belongs in reference, concepts, guides, or tutorials then rewrite it to more cleanly fit in that section. Some subsections may not need rewriting. If multiple people are working on it, then you may need an issue to keep track of this.
+* In the second pass do a reorg by type. Then mark the holes that appear and with issues.
+* **Payoff:**  Really good, but things were a bit messy until the second pass was done.
+### More skim-able
+* This was mostly just adding auto generated table of contents provided by Myst and replacing paragraphs with bullets and tables.
+* **Payoff:** Less words => less to maintain. Anecdotally, I have had two completely unprompted instances of users' saying that the new docs are very easy to navigate.

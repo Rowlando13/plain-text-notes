@@ -1,5 +1,7 @@
 # Just Enough SSH
 
+Published: 22 October 2026
+
 ## Intro
 This article treats SSH like a car. You want know how to use car so it can get your places, but you don't really care about the finer points unless they matter.
 
