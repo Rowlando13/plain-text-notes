@@ -14,4 +14,4 @@ build:
       - asdf global uv latest
     build:
       html:
-        - uv run --group docs sphinx-build -W -b dirhtml docs $READTHEDOCS_OUTPUT/html
+        - uv run sphinx-build -W -b dirhtml docs $READTHEDOCS_OUTPUT/html

@@ -21,6 +21,7 @@ extensions = [
     "sphinx.ext.viewcode",
     "sphinxemoji.sphinxemoji",
     "myst_parser",
+    "sphinx_togglebutton",
 ]
 
 templates_path = ["_templates"]
