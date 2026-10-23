@@ -1,6 +1,6 @@
 # Click: Documentation Rewrite
 
-*Published: 22 October 2026*
+*Published: 22 October 2026*, *Updated: 23 October 2026*
 
 ## Click
 [Click](https://github.com/pallets/click/) is a widely used (10 million download a month) Python package used to build command line utilities.
@@ -235,3 +235,4 @@ Options:
 ### More skim-able
 * This was mostly just adding auto generated table of contents provided by Myst and replacing paragraphs with bullets and tables.
 * **Payoff:** Less words => less to maintain. Anecdotally, I have had two completely unprompted instances of users' saying that the new docs are very easy to navigate.
+### Myst
