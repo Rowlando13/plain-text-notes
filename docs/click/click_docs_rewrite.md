@@ -235,4 +235,11 @@ Options:
 ### More skim-able
 * This was mostly just adding auto generated table of contents provided by Myst and replacing paragraphs with bullets and tables.
 * **Payoff:** Less words => less to maintain. Anecdotally, I have had two completely unprompted instances of users' saying that the new docs are very easy to navigate.
-### Myst
+
+## Q and A
+These are question I was asked after writing this.
+* Since writing this did you see a reduction in issues about how the api worked?
+In short, I don't think so. People tend to only fill out an issue if docs are wrong or a bug has been found. If people don't know because docs are missing they seem to just figure it out themselves and never post to the repo.
+
+## PostScript
+I am looking for my next job! My Contact info is on [my resume](#resume)

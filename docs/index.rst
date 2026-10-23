@@ -5,6 +5,8 @@ Welcome to Plain Text Notes!
 
 A blog for Edward Girling.
 
+I am looking for my next thing! Check out :ref:`my resume <resume>`
+
 .. toctree::
    :maxdepth: 2
    :caption: Articles:
@@ -22,6 +24,13 @@ Talks
    * Given 22 October 2026 at `San Diego Python Meetup <https://www.sandiegopython.org/>`__
 
 .. toctree::
+   :caption: About
+
+
+
+.. toctree::
    :caption: Misc
+
+   about.md
 
    talks/qr_code.md
