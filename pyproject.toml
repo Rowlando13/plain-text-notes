@@ -1,3 +1,4 @@
+# Run with sphinx-autobuild -b dirhtml docs build
 [project]
 name = "plain-text-notes"
 version = "0.1.0"
