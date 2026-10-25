@@ -22,3 +22,11 @@ repos:
       - id: fix-byte-order-marker
       - id: trailing-whitespace
       - id: end-of-file-fixer
+  - repo: local
+    hooks:
+      - id: check-about-links
+        name: check docs/about.md links
+        entry: uv run python tests/check_links.py
+        language: system
+        files: ^(docs/|tests/check_links\.py$)
+        pass_filenames: false
