@@ -45,15 +45,15 @@ Beyond direct use, it is an integral part of other popular command-line utility 
 
 ## Intro
 
-Click's documentation was totally rewritten starting late 2024 and finishing on May 31, 2026. Every line was considered. Nearly every line was revised. The organization was totally rethought. This was done across 60+ prs by me with help from the community (in no particular order [Kevin Deldycke](https://github.com/kdeldycke), [David Lord](https://github.com/davidism), [Andreas Backx](https://github.com/AndreasBackx), [Jaron Rosenau](https://github.com/denuoweb), and others)
+Click's documentation was totally rewritten starting in late 2024 and finishing on May 31, 2026. Every line was considered. Nearly every line was revised. The organization was totally rethought. This was done across 60+ PRs by me with help from the community (in no particular order [Kevin Deldycke](https://github.com/kdeldycke), [David Lord](https://github.com/davidism), [Andreas Backx](https://github.com/AndreasBackx), [Jaron Rosenau](https://github.com/denuoweb), and others).
 
 
 ## My story
-Note: At various points, I will say 'this was slow' or 'PRs were not getting reviewed'. I present these as relevant facts with no judgement on maintainers. Everyone at [Pallets](https://palletsprojects.com/), myself included, are volunteers. Things get done when they get done. There are no timelines or pressure to meet deadlines as is common in the business world.
+Note: At various points, I will say 'this was slow' or 'PRs were not getting reviewed'. I present these as relevant facts with no judgment on maintainers. Everyone at [Pallets](https://palletsprojects.com/), myself included, is a volunteer. Things get done when they get done. There are no timelines or pressure to meet deadlines as is common in the business world.
 
-I bring in my story to close the loop on how this work was able to be done. The maintainer of Click, like most maintainers, started maintaining it when they had more time, they were younger with less family demands. This work was able to be done because he and the Pallets team took the time to bring me onto the project.
+I bring in my story to close the loop on how this work was able to be done. The maintainer of Click, like most maintainers, started maintaining it when he was younger and had more time and fewer family demands. This work was able to be done because he and the Pallets team took the time to bring me onto the project.
 
-I became a contributor to Click in [June 2023](https://github.com/pallets/click/pull/2515). At that point, I had used it on to build Realtime Price Alerts at [Wallstreet.io](https://wallstreet.io/platform)  small work projects, read through the documentation multiple times, and was familiar with Click's technical and organizational issues. As I contributed to the docs and experimented with the API more, I saw just how under documented Click was. At this point, I started to form the idea for a documentation rewrite. I toyed with it a bit, but wrote it off since, since my PRs were being getting merged in very slowly.
+I became a contributor to Click in [June 2023](https://github.com/pallets/click/pull/2515). At that point, I had used it to build Real-time Price Alerts at [Wallstreet.io](https://wallstreet.io/platform), read through the documentation multiple times, and was familiar with Click's technical and organizational issues. As I contributed to the docs and experimented with the API more, I saw just how underdocumented Click was. At this point, I started to form the idea for a documentation rewrite. I toyed with it a bit, but wrote it off, since my PRs were getting merged very slowly.
 
 After some contributions, I gain merge permissions in [October 2024](https://github.com/pallets/click/pull/2551). Then I really started to think the rewrite was possible. I could put up PR's and ask for a review, and if I did not get one, which I rarely did, I could just merge it myself. So I started.
 
