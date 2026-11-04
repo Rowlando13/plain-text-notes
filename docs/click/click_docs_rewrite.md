@@ -51,6 +51,8 @@ Click's documentation was totally rewritten starting late 2024 and finishing on 
 ## My story
 Note: At various points, I will say 'this was slow' or 'PRs were not getting reviewed'. I present these as relevant facts with no judgement on maintainers. Everyone at [Pallets](https://palletsprojects.com/), myself included, are volunteers. Things get done when they get done. There are no timelines or pressure to meet deadlines as is common in the business world.
 
+I bring in my story to close the loop on how this work was able to be done. The maintainer of Click, like most maintainers, started maintaining it when they had more time, they were younger with less family demands. This work was able to be done because he and the Pallets team took the time to bring me onto the project.
+
 I became a contributor to Click in [June 2023](https://github.com/pallets/click/pull/2515). At that point, I had used it on to build Realtime Price Alerts at [Wallstreet.io](https://wallstreet.io/platform)  small work projects, read through the documentation multiple times, and was familiar with Click's technical and organizational issues. As I contributed to the docs and experimented with the API more, I saw just how under documented Click was. At this point, I started to form the idea for a documentation rewrite. I toyed with it a bit, but wrote it off since, since my PRs were being getting merged in very slowly.
 
 After some contributions, I gain merge permissions in [October 2024](https://github.com/pallets/click/pull/2551). Then I really started to think the rewrite was possible. I could put up PR's and ask for a review, and if I did not get one, which I rarely did, I could just merge it myself. So I started.
