@@ -20,8 +20,8 @@ Talks
 ------
 
 * `Click: Documentation Rewrite <https://www.youtube.com/watch?v=4aAf904Fbvg>`__
-   * Starts at minute 42.
-   * Given 22 October 2026 at `San Diego Python Meetup <https://www.sandiegopython.org/>`__
+   * Given 22 October 2026 at `San Diego Python Meetup <https://www.sandiegopython.org/>`__ Starts at minute 42.
+   * Also given 24 October 2026 at `PyBeach 2026 <https://2026.pybeach.org/>`__
 
 .. toctree::
    :caption: About
