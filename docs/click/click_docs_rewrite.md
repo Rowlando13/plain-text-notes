@@ -64,28 +64,28 @@ After some contributions, I gained merge permissions in [October 2024](https://g
 1. Assume the reader is proficient in Python, but not the command line
 1. Organize according to [Diataxis](https://diataxis.fr/)
 1. Improve organization, with a specific focus on being able to navigate with minimal clicks, i.e., be more skimmable
-1. Write in [Myst](https://myst-parser.readthedocs.io/en/latest), Markdown + the power of [ReStructured Text](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html)
+1. Write in [MyST](https://myst-parser.readthedocs.io/en/latest), Markdown + the power of [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html)
 
 ## Why
-Some of the goals are self explanatory, so I will skip those.
+Some of the goals are self-explanatory, so I will skip those.
 
 ### More precise, more concise
-The prior click docs were written very conversationally, which made them an easy read, but at the cost of precision and conciseness. I don't think that was a good trade. I don't intend the reference documentation to be read like a book, start to finish. I intend it to be consulted, and when consulted, for explanations to stand on their own and be very clear. Additionally extra length makes it harder to find the correct part to consult.
+The prior Click docs were written very conversationally, which made them an easy read, but at the cost of precision and conciseness. I don't think that was a good trade. I don't intend the reference documentation to be read like a book, start to finish. I intend it to be consulted, and when consulted, for explanations to stand on their own and be very clear. Additionally, extra length makes it harder to find the correct part to consult.
 
 ### Proficient in Python but not the command line
-Many people that develop in Python do so with a partial understanding of the language. They want to use it to do something rather than make a web app. The data scientist comes to [explore the data](https://blog.jetbrains.com/pycharm/2025/09/why-is-python-so-popular/#2-strength-in-data-science-and-analytics). The IT professional comes to make scripts to automate processes. They have an area of expertise, and Python is just a way to leverage that expertise. For them, a common workflow is is running scripts directly with `python -m script.py`. The next logical step to increase utility for commonly run scripts is to turn them  into command line utilities. So I want to documentation to meet them where they are. The minor downside is that we maintain some documentation that software engineers can just skim over.
+Many people who develop in Python do so with a partial understanding of the language. They want to use it to do something rather than make a web app. The data scientist comes to [explore the data](https://blog.jetbrains.com/pycharm/2025/09/why-is-python-so-popular/#2-strength-in-data-science-and-analytics). The IT professional comes to make scripts to automate processes. They have an area of expertise, and Python is just a way to leverage that expertise. For them, a common workflow is running scripts directly with `python script.py`. The next logical step to increase utility for commonly run scripts is to turn them into command line utilities. So I want the documentation to meet them where they are. The minor downside is that we maintain some documentation that software engineers can just skim over.
 
 ### Diataxis
-The essence of diataxis is to the split the documentation into major categories and to have sections of the documentation fit nicely into a single category. By deciding in advance which category a section fits into, the essential questions of audience, purpose, and writing style are also decided. Overall the documentation becomes more easy to navigate and maintain.
-* Reference - for the doer trying to know how the api works
+The essence of Diataxis is to split the documentation into major categories and to have sections of the documentation fit nicely into a single category. By deciding in advance which category a section fits into, the essential questions of audience, purpose, and writing style are also decided. Overall, the documentation becomes easier to navigate and maintain.
+* Reference - for the doer trying to know how the API works
 * Concepts - for the learner trying to understand why something was designed a certain way
 * Guide - for the doer trying to get a specific task done
 * Tutorial - for the learner to learn by doing something
 
 A person knows what they are coming to the docs to do or learn, and once they understand the sections, they can quickly navigate to the correct quartile of the documentation.
 
-### Written in Myst Markdown
-Python documentation is traditionally written in ReStructured text, which is very powerful but not easy to write or used outside of Python. But many Python developers use Python and another language, and most other language document in Markdown. So then the best choice is one that is mostly Markdown but also extends it with power features such as arbitrary cross-linking, so [Myst](https://mystmd.org/) is the choice. Additionally, Markdown is the preferred format for agents, which is increasing an audience unto itself for docs.
+### Written in MyST Markdown
+Python documentation is traditionally written in reStructuredText, which is very powerful but not easy to write or used outside of Python. But many Python developers use Python and another language, and most other language document in Markdown. So then the best choice is one that is mostly Markdown but also extends it with power features such as arbitrary cross-linking, so [MyST](https://mystmd.org/) is the choice. Additionally, Markdown is the preferred format for agents, which is increasing an audience unto itself for docs.
 
 
 
@@ -236,7 +236,7 @@ Options:
 * In the second pass do a reorg by type. Then mark the holes that appear and with issues.
 * **Payoff:**  Really good, but things were a bit messy until the second pass was done.
 ### More skimmable
-* This was mostly just adding auto generated table of contents provided by Myst and replacing paragraphs with bullets and tables.
+* This was mostly just adding auto generated table of contents provided by MyST and replacing paragraphs with bullets and tables.
 * **Payoff:** Less words => less to maintain. Anecdotally, I have had two completely unprompted instances of users saying that the new docs are very easy to navigate.
 
 ## Q and A
