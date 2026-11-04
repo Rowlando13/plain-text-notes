@@ -1,9 +1,9 @@
 # Click: Documentation Rewrite
 
-*Published: 22 October 2026*, *Updated: 23 October 2026*
+*Published: 22 October 2026*, *Updated: 3 November 2026*
 
 ## Click
-[Click](https://github.com/pallets/click/) is a widely used (10 million downloads a month) Python package used to build command line utilities.
+[Click](https://github.com/pallets/click/) is a widely used (10 million downloads a month) Python package for building command-line utilities.
 
 To build a utility, just decorate a function:
 
@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
 ```
 
-Then it is runnable from the the command line.
+Then it is runnable from the command line.
 
 ```bash
 $ python hello.py --count=2
@@ -33,7 +33,7 @@ Hello John!
 Hello John!
 
 ```
-With a [few additional steps](https://click.palletsprojects.com/en/stable/entry-points/), the command line utility can be installed globally. Then it can be run by name alone.
+With a [few additional steps](https://click.palletsprojects.com/en/stable/entry-points/), the command-line utility can be installed globally. Then it can be run by name alone.
 
 ```bash
 $ hello --count=1
@@ -41,7 +41,7 @@ Your name: John
 Hello John!
 ```
 
-In addition to its own use, it is an integral part to other popular command line utility packages such as [Typer](https://github.com/fastapi/typer) (20 k stars).
+Beyond direct use, it is an integral part of other popular command-line utility packages such as [Typer](https://github.com/fastapi/typer) (20k stars).
 
 ## Intro
 
