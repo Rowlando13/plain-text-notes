@@ -45,7 +45,7 @@ Beyond direct use, it is an integral part of other popular command-line utility 
 
 ## Intro
 
-Click's documentation was totally rewritten starting in late 2024 and finishing on May 31, 2026. Every line was considered. Nearly every line was revised. The organization was totally rethought. This was done across 60+ PRs by me with help from the community (in no particular order [Kevin Deldycke](https://github.com/kdeldycke), [David Lord](https://github.com/davidism), [Andreas Backx](https://github.com/AndreasBackx), [Jaron Rosenau](https://github.com/denuoweb), and others).
+Click's documentation was totally rewritten starting in late 2024 and finishing on May 31, 2026. Every line was considered. Nearly every line was revised. The organization was completely rethought. This was done across 60+ PRs by me with help from the community (in no particular order [Kevin Deldycke](https://github.com/kdeldycke), [David Lord](https://github.com/davidism), [Andreas Backx](https://github.com/AndreasBackx), [Jaron Rosenau](https://github.com/denuoweb), and others).
 
 
 ## My story
@@ -201,7 +201,7 @@ Options:
 ### Organization
 * [Home page before](https://web.archive.org/web/20240328214125/https://click.palletsprojects.com/en/8.1.x/): Just a giant overflowing list 5+ pages in length with every section and subsection
 * [Home page after](https://click.palletsprojects.com/en/stable/): Nicely nested layout of about 2 pages with a scannable list of sections
-* Basic Commands, Group, Context before: scattered in different sections or not written at all. The table below maps about where the sections came from.
+* Basic Commands, Groups, and Context before: scattered in different sections or not written at all. The table below roughly maps where the sections came from.
 
 | Stable section (8.5.x) | 8.1.7 origin | Status |
 |---|---|---|
@@ -220,29 +220,29 @@ Options:
 | Global Context Access | `advanced.rst`, same title | Moved, near-verbatim |
 | Parameter Source Priority | Not in 8.1.7 docs | New |
 | Detecting the Source of a Parameter | `advanced.rst`, same title | Moved, near-verbatim |
-* [Basic Commands, Group, Context after](https://click.palletsprojects.com/en/stable/commands-and-groups/): Own section with nice table of contents at the top
-* [Options before](https://web.archive.org/web/20240329123600/https://click.palletsprojects.com/en/8.1.x/options/): A list so big its hard to navigate
-* [Options after](https://click.palletsprojects.com/en/stable/options/#options): Added table of contents at the top. Table of contents has links to all sections. Click on the link to go to section then click on the section header to jump back to table of contents.
+* [Basic Commands, Groups, and Context after](https://click.palletsprojects.com/en/stable/commands-and-groups/): Own section with a nice table of contents at the top
+* [Options before](https://web.archive.org/web/20240329123600/https://click.palletsprojects.com/en/8.1.x/options/): A list so big it's hard to navigate
+* [Options after](https://click.palletsprojects.com/en/stable/options/#options): Added table of contents at the top. Table of contents has links to all sections. Click on the link to go to the section, then click on the section header to jump back to the table of contents.
 
 
 ## Tips for repeating the process
 ### General
-* Form goals and form consensus with the team about the goals. 7 tightly scoped goals is probably max.
-* Try very hard to get reviews for the the changes. This is not always possible, but great docs are best formed by multiple people since they serve people coming from many backgrounds.
-* If the project has a lot of docs, then the grind is real, with a lot of the value coming when the process is totally done. So better to have a few goals and finish than have many and not finish.
+* Set goals and build consensus with the team about the goals. Seven tightly scoped goals is probably the max.
+* Try very hard to get reviews for the changes. This is not always possible, but great docs are best formed by multiple people since they serve people coming from many backgrounds.
+* If the project has a lot of docs, then the grind is real, with a lot of the value coming when the process is totally done. So it's better to have a few goals and finish than to have many and not finish.
 ### Diataxis
 * This usually requires multiple passes.
 * In the first pass, for each subsection (the smallest section that has a heading), decide if it belongs in reference, concepts, guides, or tutorials, then rewrite it to more cleanly fit in that section. Some subsections may not need rewriting. If multiple people are working on it, then you may need an issue to keep track of this.
-* In the second pass do a reorg by type. Then mark the holes that appear and with issues.
-* **Payoff:**  Really good, but things were a bit messy until the second pass was done.
+* In the second pass, do a reorg by type. Then mark the holes that appear with issues.
+* **Payoff:** Really good, but things were a bit messy until the second pass was done.
 ### More skimmable
-* This was mostly just adding auto generated table of contents provided by MyST and replacing paragraphs with bullets and tables.
-* **Payoff:** Less words => less to maintain. Anecdotally, I have had two completely unprompted instances of users saying that the new docs are very easy to navigate.
+* This was mostly just adding auto-generated tables of contents provided by MyST and replacing paragraphs with bullets and tables.
+* **Payoff:** Fewer words => less to maintain. Anecdotally, I have had two completely unprompted instances of users saying that the new docs are very easy to navigate.
 
 ## Q and A
 These are questions I was asked after writing this:
-* Since writing this did you see a reduction in issues about how the api worked?
-In short, I don't think so. People tend to only fill out an issue if docs are wrong or a bug has been found. If people don't know because docs are missing they seem to just figure it out themselves and never post to the repo.
+* Since writing this, did you see a reduction in issues about how the API worked?
+In short, I don't think so. People tend to only open an issue if docs are wrong or a bug has been found. If people don't know because docs are missing, they seem to just figure it out themselves and never post to the repo.
 
-## PostScript
-I am looking for my next job! My Contact info is on [my resume](#resume)
+## Postscript
+I am looking for my next job! My contact info is on [my resume](#resume).
