@@ -53,18 +53,18 @@ Note: At various points, I will say 'this was slow' or 'PRs were not getting rev
 
 I bring in my story to close the loop on how this work was able to be done. The maintainer of Click, like most maintainers, started maintaining it when he was younger and had more time and fewer family demands. This work was able to be done because he and the Pallets team took the time to bring me onto the project.
 
-I became a contributor to Click in [June 2023](https://github.com/pallets/click/pull/2515). At that point, I had used it to build Real-time Price Alerts at [Wallstreet.io](https://wallstreet.io/platform), read through the documentation multiple times, and was familiar with Click's technical and organizational issues. As I contributed to the docs and experimented with the API more, I saw just how underdocumented Click was. At this point, I started to form the idea for a documentation rewrite. I toyed with it a bit, but wrote it off, since my PRs were getting merged very slowly.
+I became a contributor to Click in [June 2023](https://github.com/pallets/click/pull/2515). At that point, I had used it to build Real-time Price Alerts at [Wallstreet.io](https://wallstreet.io/platform), read through the documentation multiple times, and was familiar with Click's technical and organizational issues. As I contributed to the docs and experimented with the API more, I saw just how underdocumented Click was. That's when I started to form the idea for a documentation rewrite. I toyed with it a bit, but wrote it off, since my PRs were getting merged very slowly.
 
-After some contributions, I gain merge permissions in [October 2024](https://github.com/pallets/click/pull/2551). Then I really started to think the rewrite was possible. I could put up PR's and ask for a review, and if I did not get one, which I rarely did, I could just merge it myself. So I started.
+After some contributions, I gained merge permissions in [October 2024](https://github.com/pallets/click/pull/2551). Then I really started to think the rewrite was possible. I could put up PRs and ask for a review, and if I did not get one, which happened often, I could just merge it myself. So I started.
 
 ## Goals
-1. Be more precise i.e. say exactly what is meant without using esoteric jargon
-2. More concise i.e. say more with less
-1. More comprehensive
-1. Assume the reader is proficient in python, but not the commandline
-1. Organized according to [Diataxis](https://diataxis.fr/)
-1. Better organization with a specific focus of being able to navigate with minimal clicks ie more skim-able
-1. Written in [Myst](https://myst-parser.readthedocs.io/en/latest), Markdown + the power of [ReStructured Text](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html)
+1. Be more precise, i.e., say exactly what is meant without using esoteric jargon
+2. Be more concise, i.e., say more with less
+1. Be more comprehensive
+1. Assume the reader is proficient in Python, but not the command line
+1. Organize according to [Diataxis](https://diataxis.fr/)
+1. Improve organization, with a specific focus on being able to navigate with minimal clicks, i.e., be more skimmable
+1. Write in [Myst](https://myst-parser.readthedocs.io/en/latest), Markdown + the power of [ReStructured Text](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html)
 
 ## Why
 Some of the goals are self explanatory, so I will skip those.
@@ -72,7 +72,7 @@ Some of the goals are self explanatory, so I will skip those.
 ### More precise, more concise
 The prior click docs were written very conversationally, which made them an easy read, but at the cost of precision and conciseness. I don't think that was a good trade. I don't intend the reference documentation to be read like a book, start to finish. I intend it to be consulted, and when consulted, for explanations to stand on their own and be very clear. Additionally extra length makes it harder to find the correct part to consult.
 
-### Proficient in Python but not the commandline
+### Proficient in Python but not the command line
 Many people that develop in Python do so with a partial understanding of the language. They want to use it to do something rather than make a web app. The data scientist comes to [explore the data](https://blog.jetbrains.com/pycharm/2025/09/why-is-python-so-popular/#2-strength-in-data-science-and-analytics). The IT professional comes to make scripts to automate processes. They have an area of expertise, and Python is just a way to leverage that expertise. For them, a common workflow is is running scripts directly with `python -m script.py`. The next logical step to increase utility for commonly run scripts is to turn them  into command line utilities. So I want to documentation to meet them where they are. The minor downside is that we maintain some documentation that software engineers can just skim over.
 
 ### Diataxis
@@ -235,7 +235,7 @@ Options:
 * In the first pass, for each subsection (the smallest section that has a heading), decide if it belongs in reference, concepts, guides, or tutorials, then rewrite it to more cleanly fit in that section. Some subsections may not need rewriting. If multiple people are working on it, then you may need an issue to keep track of this.
 * In the second pass do a reorg by type. Then mark the holes that appear and with issues.
 * **Payoff:**  Really good, but things were a bit messy until the second pass was done.
-### More skim-able
+### More skimmable
 * This was mostly just adding auto generated table of contents provided by Myst and replacing paragraphs with bullets and tables.
 * **Payoff:** Less words => less to maintain. Anecdotally, I have had two completely unprompted instances of users saying that the new docs are very easy to navigate.
 
