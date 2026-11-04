@@ -73,7 +73,7 @@ Some of the goals are self-explanatory, so I will skip those.
 The prior Click docs were written very conversationally, which made them an easy read, but at the cost of precision and conciseness. I don't think that was a good trade. I don't intend the reference documentation to be read like a book, start to finish. I intend it to be consulted, and when consulted, for explanations to stand on their own and be very clear. Additionally, extra length makes it harder to find the correct part to consult.
 
 ### Proficient in Python but not the command line
-Many people who develop in Python do so with a partial understanding of the language. They want to use it to do something rather than make a web app. The data scientist comes to [explore the data](https://blog.jetbrains.com/pycharm/2025/09/why-is-python-so-popular/#2-strength-in-data-science-and-analytics). The IT professional comes to make scripts to automate processes. They have an area of expertise, and Python is just a way to leverage that expertise. For them, a common workflow is running scripts directly with `python script.py`. The next logical step to increase utility for commonly run scripts is to turn them into command line utilities. So I want the documentation to meet them where they are. The minor downside is that we maintain some documentation that software engineers can just skim over.
+Many people who develop in Python do so with a partial understanding of the language. They want to use it to do something rather than make a web app. The data scientist comes to [explore the data](https://blog.jetbrains.com/pycharm/2025/09/why-is-python-so-popular/#2-strength-in-data-science-and-analytics). The IT professional comes to make scripts to automate processes. They have an area of expertise, and Python is just a way to leverage that expertise. For them, a common workflow is running scripts directly with `python script.py`. The next logical step to increase utility for commonly run scripts is to turn them into command-line utilities. So I want the documentation to meet them where they are. The minor downside is that we maintain some documentation that software engineers can just skim over.
 
 ### Diataxis
 The essence of Diataxis is to split the documentation into major categories and to have sections of the documentation fit nicely into a single category. By deciding in advance which category a section fits into, the essential questions of audience, purpose, and writing style are also decided. Overall, the documentation becomes easier to navigate and maintain.
@@ -82,19 +82,19 @@ The essence of Diataxis is to split the documentation into major categories and 
 * Guide - for the doer trying to get a specific task done
 * Tutorial - for the learner to learn by doing something
 
-A person knows what they are coming to the docs to do or learn, and once they understand the sections, they can quickly navigate to the correct quartile of the documentation.
+A person knows what they are coming to the docs to do or learn, and once they understand the sections, they can quickly navigate to the correct quarter of the documentation.
 
 ### Written in MyST Markdown
-Python documentation is traditionally written in reStructuredText, which is very powerful but not easy to write or used outside of Python. But many Python developers use Python and another language, and most other language document in Markdown. So then the best choice is one that is mostly Markdown but also extends it with power features such as arbitrary cross-linking, so [MyST](https://mystmd.org/) is the choice. Additionally, Markdown is the preferred format for agents, which is increasing an audience unto itself for docs.
+Python documentation is traditionally written in reStructuredText, which is very powerful but not easy to write or widely used outside of Python. But many Python developers use Python and another language, and most other languages document in Markdown. So then the best choice is one that is mostly Markdown but also extends it with power features such as arbitrary cross-linking, so [MyST](https://mystmd.org/) is the choice. Additionally, Markdown is the preferred format for agents, which are increasingly an audience unto themselves for docs.
 
 
 
 ## Before and After
-These examples try to give the flavor of what was achieved in the rewrite. To see for yourself poke around in the [web archive](https://web.archive.org/web/20240128021053/https://click.palletsprojects.com/en/8.1.x/) and the [current docs](https://click.palletsprojects.com/en/stable/).
+These examples try to give the flavor of what was achieved in the rewrite. To see for yourself, poke around in the [web archive](https://web.archive.org/web/20240128021053/https://click.palletsprojects.com/en/8.1.x/) and the [current docs](https://click.palletsprojects.com/en/stable/).
 
-The examples are provided from the web archive which can be slow so open links in a separate tab for best performance. Sections were removed so the reader can more easily compare the same text before and after. They are annotated with **.. Section Removed ..**
+The examples are provided from the web archive, which can be slow, so open links in a separate tab for best performance. Sections were removed so the reader can more easily compare the same text before and after. They are annotated with **... Section Removed ...**
 
-### Precise and Conciseness
+### Precision and Conciseness
 * [Parameters before](https://web.archive.org/web/20240329183124/https://click.palletsprojects.com/en/8.1.x/parameters/) :
 
 ```{toggle}
@@ -114,7 +114,7 @@ Arguments can do less than options. The following features are only available fo
 
 On the other hand arguments, unlike options, can accept an arbitrary number of arguments. Options can strictly ever only accept a fixed number of arguments (defaults to 1), or they may be specified multiple times using Multiple Options.
 
-**... Section Removed  ...**
+**... Section Removed ...**
 
 ```
 * [Parameters after](https://click.palletsprojects.com/en/stable/parameters/):
@@ -138,7 +138,7 @@ Click supports only two principle types of parameters for scripts (by design): o
 * Can be pulled from environment variables but only explicitly named ones. For more see Environment Variables.
 
 
-**... Section Removed  ...**
+**... Section Removed ...**
 ````
 * Parameters analysis: 30 percent shorter (194 words vs 137 words) with no significant loss of meaning. More comprehensible format.
 * [Basic Options before](https://web.archive.org/web/20240128021053mp_/https://click.palletsprojects.com/en/8.1.x/options/#basic-value-options)
@@ -195,11 +195,11 @@ Options:
   --help       Show this message and exit.
 ```
 ````
-* Basic example analysis: The before section does too much. The point of a basic example to show a very minimal example of what a single option does in action and on the help page. The different ideas brought up in the before section are given their own concise sections.
+* Basic example analysis: The before section does too much. The point of a basic example is to show a very minimal example of what a single option does in action and on the help page. The different ideas brought up in the before section are given their own concise sections.
 
 
 ### Organization
-* [Home page before](https://web.archive.org/web/20240328214125/https://click.palletsprojects.com/en/8.1.x/)  Just a giant overflowing list 5 + pages in length with every section and sub section
+* [Home page before](https://web.archive.org/web/20240328214125/https://click.palletsprojects.com/en/8.1.x/): Just a giant overflowing list 5+ pages in length with every section and subsection
 * [Home page after](https://click.palletsprojects.com/en/stable/): Nicely nested layout of about 2 pages with a scannable list of sections
 * Basic Commands, Group, Context before: scattered in different sections or not written at all. The table below maps about where the sections came from.
 
