@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "plain_text_notes"
-copyright = "2023, Ed"
-author = "Ed"
+copyright = "2026, Edward Girling"
+author = "Edward Girling"
 release = "0.0.1"
 
 # -- General configuration ---------------------------------------------------

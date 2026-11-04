@@ -3,7 +3,7 @@
 *Published: 22 October 2026*, *Updated: 23 October 2026*
 
 ## Click
-[Click](https://github.com/pallets/click/) is a widely used (10 million download a month) Python package used to build command line utilities.
+[Click](https://github.com/pallets/click/) is a widely used (10 million downloads a month) Python package used to build command line utilities.
 
 To build a utility, just decorate a function:
 
@@ -51,7 +51,7 @@ Click's documentation was totally rewritten starting late 2024 and finishing on 
 ## My story
 Note: At various points, I will say 'this was slow' or 'PRs were not getting reviewed'. I present these as relevant facts with no judgement on maintainers. Everyone at [Pallets](https://palletsprojects.com/), myself included, are volunteers. Things get done when they get done. There are no timelines or pressure to meet deadlines as is common in the business world.
 
-I became a contributor to Click in [June 2023](https://github.com/pallets/click/pull/2515). At that point, I had used it on some small work projects, read through the documentation multiple times, and was familiar with Click's technical and organizational issues. As contributed to the docs and experimented with the API more, I saw just how under documented Click was. At this point, I started to form the idea for a documentation rewrite. I toyed with it a bit, but wrote it off since, since my PRs being getting merged in very slowly.
+I became a contributor to Click in [June 2023](https://github.com/pallets/click/pull/2515). At that point, I had used it on to build Realtime Price Alerts at [Wallstreet.io](https://wallstreet.io/platform)  small work projects, read through the documentation multiple times, and was familiar with Click's technical and organizational issues. As I contributed to the docs and experimented with the API more, I saw just how under documented Click was. At this point, I started to form the idea for a documentation rewrite. I toyed with it a bit, but wrote it off since, since my PRs were being getting merged in very slowly.
 
 After some contributions, I gain merge permissions in [October 2024](https://github.com/pallets/click/pull/2551). Then I really started to think the rewrite was possible. I could put up PR's and ask for a review, and if I did not get one, which I rarely did, I could just merge it myself. So I started.
 
@@ -83,14 +83,15 @@ The essence of diataxis is to the split the documentation into major categories 
 A person knows what they are coming to the docs to do or learn, and once they understand the sections, they can quickly navigate to the correct quartile of the documentation.
 
 ### Written in Myst Markdown
-Python documentation is traditionally written in ReStructured text, which is very powerful but not easy to write or used outside of Python. But many Python developers use Python and another language, and most other language document in Markdown. So then the best choice is one that is mostly Markdown but also extends it with power features such as arbitrary cross-linking, so [Myst](https://mystmd.org/) is the choice.
+Python documentation is traditionally written in ReStructured text, which is very powerful but not easy to write or used outside of Python. But many Python developers use Python and another language, and most other language document in Markdown. So then the best choice is one that is mostly Markdown but also extends it with power features such as arbitrary cross-linking, so [Myst](https://mystmd.org/) is the choice. Additionally, Markdown is the preferred format for agents, which is increasing an audience unto itself for docs.
 
 
 
 ## Before and After
 These examples try to give the flavor of what was achieved in the rewrite. To see for yourself poke around in the [web archive](https://web.archive.org/web/20240128021053/https://click.palletsprojects.com/en/8.1.x/) and the [current docs](https://click.palletsprojects.com/en/stable/).
 
-The examples are provided from the web archive which can be slow so open links in a separate tab for best performance. Sections were removed so the reader can more easily compare the same text before and after
+The examples are provided from the web archive which can be slow so open links in a separate tab for best performance. Sections were removed so the reader can more easily compare the same text before and after. They are annotated with **.. Section Removed ..**
+
 ### Precise and Conciseness
 * [Parameters before](https://web.archive.org/web/20240329183124/https://click.palletsprojects.com/en/8.1.x/parameters/) :
 
@@ -226,18 +227,18 @@ Options:
 ### General
 * Form goals and form consensus with the team about the goals. 7 tightly scoped goals is probably max.
 * Try very hard to get reviews for the the changes. This is not always possible, but great docs are best formed by multiple people since they serve people coming from many backgrounds.
-* If the project has a lot of docs, then the grind is real with a lot of the value coming when the process is totally done. So better to have a few goals and finish than have many and get halfway done.
+* If the project has a lot of docs, then the grind is real, with a lot of the value coming when the process is totally done. So better to have a few goals and finish than have many and not finish.
 ### Diataxis
 * This usually requires multiple passes.
-* In the first pass, for each subsection (the smallest section that has a heading), decide whether it belongs in reference, concepts, guides, or tutorials then rewrite it to more cleanly fit in that section. Some subsections may not need rewriting. If multiple people are working on it, then you may need an issue to keep track of this.
+* In the first pass, for each subsection (the smallest section that has a heading), decide if it belongs in reference, concepts, guides, or tutorials, then rewrite it to more cleanly fit in that section. Some subsections may not need rewriting. If multiple people are working on it, then you may need an issue to keep track of this.
 * In the second pass do a reorg by type. Then mark the holes that appear and with issues.
 * **Payoff:**  Really good, but things were a bit messy until the second pass was done.
 ### More skim-able
 * This was mostly just adding auto generated table of contents provided by Myst and replacing paragraphs with bullets and tables.
-* **Payoff:** Less words => less to maintain. Anecdotally, I have had two completely unprompted instances of users' saying that the new docs are very easy to navigate.
+* **Payoff:** Less words => less to maintain. Anecdotally, I have had two completely unprompted instances of users saying that the new docs are very easy to navigate.
 
 ## Q and A
-These are question I was asked after writing this.
+These are questions I was asked after writing this:
 * Since writing this did you see a reduction in issues about how the api worked?
 In short, I don't think so. People tend to only fill out an issue if docs are wrong or a bug has been found. If people don't know because docs are missing they seem to just figure it out themselves and never post to the repo.
 

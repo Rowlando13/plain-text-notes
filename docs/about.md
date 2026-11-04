@@ -1,7 +1,7 @@
 # About me
 
 ## Open to Work
-I am looking for my next thing! Check out my resume below.
+I am looking for my next thing! Check out my resume below. I am looking in San Diego, LA, and San Francisco.
 
 ## Links
 * [Rowlando13 on Github](https://Github.com/Rowlando13)
