@@ -45,17 +45,17 @@ Beyond direct use, it is an integral part of other popular command-line utility 
 
 ## Intro
 
-Click's documentation was totally rewritten starting in late 2024 and finishing on May 31, 2026. Every line was considered. Nearly every line was revised. The organization was completely rethought. This was done across 60+ PRs by me with help from the community (in no particular order [Kevin Deldycke](https://github.com/kdeldycke), [David Lord](https://github.com/davidism), [Andreas Backx](https://github.com/AndreasBackx), [Jaron Rosenau](https://github.com/denuoweb), and others).
+Click's documentation was totally rewritten starting in late 2024 and finishing on May 31, 2026. Every line was considered. Nearly every line was revised. The organization was completely rethought. This was done across 60+ PRs by me with help from the community (in no particular order: [Kevin Deldycke](https://github.com/kdeldycke), [David Lord](https://github.com/davidism), [Andreas Backx](https://github.com/AndreasBackx), [Jaron Rosenau](https://github.com/denuoweb), and others).
 
 
 ## My story
-Note: At various points, I will say 'this was slow' or 'PRs were not getting reviewed'. I present these as relevant facts with no judgment on maintainers. Everyone at [Pallets](https://palletsprojects.com/), myself included, is a volunteer. Things get done when they get done. There are no timelines or pressure to meet deadlines as is common in the business world.
+Note: At various points, I will say 'this was slow' or 'PRs were not getting reviewed'. I present these as relevant facts with no judgment on maintainers. Everyone at [Pallets](https://palletsprojects.com/), myself included, is a volunteer. Things get done when they get done. There are no timelines or deadline pressure, unlike in the business world.
 
-I bring in my story to close the loop on how this work was able to be done. The maintainer of Click, like most maintainers, started maintaining it when he was younger and had more time and fewer family demands. This work was able to be done because he and the Pallets team took the time to bring me onto the project.
+I bring in my story to close the loop on how this work got done. The maintainer of Click, like most maintainers, started maintaining it when he was younger and had more time and fewer family demands. This work happened because he and the Pallets team took the time to bring me onto the project.
 
-I became a contributor to Click in [June 2023](https://github.com/pallets/click/pull/2515). At that point, I had used it to build Real-time Price Alerts at [Wallstreet.io](https://wallstreet.io/platform), read through the documentation multiple times, and was familiar with Click's technical and organizational issues. As I contributed to the docs and experimented with the API more, I saw just how underdocumented Click was. That's when I started to form the idea for a documentation rewrite. I toyed with it a bit, but wrote it off, since my PRs were getting merged very slowly.
+I became a contributor to Click in [June 2023](https://github.com/pallets/click/pull/2515). At that point, I had used it to build Real-time Price Alerts at [Wallstreet.io](https://wallstreet.io/platform), read through the documentation multiple times, and was familiar with Click's technical and organizational issues. As I contributed to the docs and experimented with the API more, I saw just how underdocumented Click was. That's when I started to form the idea for a documentation rewrite. I toyed with it a bit but wrote it off, since my PRs were getting merged very slowly.
 
-After some contributions, I gained merge permissions in [October 2024](https://github.com/pallets/click/pull/2551). Then I really started to think the rewrite was possible. I could put up PRs and ask for a review, and if I did not get one, which happened often, I could just merge it myself. So I started.
+After some contributions, I gained merge permissions in [October 2024](https://github.com/pallets/click/pull/2551). Then I really started to think the rewrite was possible. I could put up a PR and ask for a review, and if I did not get one, which happened often, I could just merge it myself. So I started.
 
 ## Goals
 1. Be more precise, i.e., say exactly what is meant without using esoteric jargon
@@ -73,7 +73,7 @@ Some of the goals are self-explanatory, so I will skip those.
 The prior Click docs were written very conversationally, which made them an easy read, but at the cost of precision and conciseness. I don't think that was a good trade. I don't intend the reference documentation to be read like a book, start to finish. I intend it to be consulted, and when consulted, for explanations to stand on their own and be very clear. Additionally, extra length makes it harder to find the correct part to consult.
 
 ### Proficient in Python but not the command line
-Many people who develop in Python do so with a partial understanding of the language. They want to use it to do something rather than make a web app. The data scientist comes to [explore the data](https://blog.jetbrains.com/pycharm/2025/09/why-is-python-so-popular/#2-strength-in-data-science-and-analytics). The IT professional comes to make scripts to automate processes. They have an area of expertise, and Python is just a way to leverage that expertise. For them, a common workflow is running scripts directly with `python script.py`. The next logical step to increase utility for commonly run scripts is to turn them into command-line utilities. So I want the documentation to meet them where they are. The minor downside is that we maintain some documentation that software engineers can just skim over.
+Many people who develop in Python do so with a partial understanding of the language. They want to use it to get work done in their own field rather than to build software. The data scientist comes to [explore the data](https://blog.jetbrains.com/pycharm/2025/09/why-is-python-so-popular/#2-strength-in-data-science-and-analytics). The IT professional comes to make scripts to automate processes. They have an area of expertise, and Python is just a way to leverage that expertise. For them, a common workflow is running scripts directly with `python script.py`. The next logical step to increase utility for commonly run scripts is to turn them into command-line utilities. So I want the documentation to meet them where they are. The minor downside is that we maintain some documentation that software engineers can just skim over.
 
 ### Diataxis
 The essence of Diataxis is to split the documentation into major categories and to have sections of the documentation fit nicely into a single category. By deciding in advance which category a section fits into, the essential questions of audience, purpose, and writing style are also decided. Overall, the documentation becomes easier to navigate and maintain.
@@ -85,7 +85,7 @@ The essence of Diataxis is to split the documentation into major categories and 
 A person knows what they are coming to the docs to do or learn, and once they understand the sections, they can quickly navigate to the correct quarter of the documentation.
 
 ### Written in MyST Markdown
-Python documentation is traditionally written in reStructuredText, which is very powerful but not easy to write or widely used outside of Python. But many Python developers use Python and another language, and most other languages document in Markdown. So then the best choice is one that is mostly Markdown but also extends it with power features such as arbitrary cross-linking, so [MyST](https://mystmd.org/) is the choice. Additionally, Markdown is the preferred format for agents, which are increasingly an audience unto themselves for docs.
+Python documentation is traditionally written in reStructuredText, which is very powerful but not easy to write or widely used outside of Python. But many Python developers also use another language, and most other languages document in Markdown. The best choice is one that is mostly Markdown but extends it with power features such as arbitrary cross-linking. That choice is [MyST](https://mystmd.org/). Additionally, Markdown is the preferred format for agents, which are increasingly an audience unto themselves for docs.
 
 
 
@@ -95,7 +95,7 @@ These examples try to give the flavor of what was achieved in the rewrite. To se
 The examples are provided from the web archive, which can be slow, so open links in a separate tab for best performance. Sections were removed so the reader can more easily compare the same text before and after. They are annotated with **... Section Removed ...**
 
 ### Precision and Conciseness
-* [Parameters before](https://web.archive.org/web/20240329183124/https://click.palletsprojects.com/en/8.1.x/parameters/) :
+* [Parameters before](https://web.archive.org/web/20240329183124/https://click.palletsprojects.com/en/8.1.x/parameters/):
 
 ```{toggle}
 Click supports two types of parameters for scripts: options and arguments.
@@ -141,7 +141,7 @@ Click supports only two principle types of parameters for scripts (by design): o
 **... Section Removed ...**
 ````
 * Parameters analysis: 30 percent shorter (194 words vs 137 words) with no significant loss of meaning. More comprehensible format.
-* [Basic Options before](https://web.archive.org/web/20240128021053mp_/https://click.palletsprojects.com/en/8.1.x/options/#basic-value-options)
+* [Basic Options before](https://web.archive.org/web/20240128021053mp_/https://click.palletsprojects.com/en/8.1.x/options/#basic-value-options):
 ````{toggle}
 The most basic option is a value option. These options accept one argument which is a value. If no type is provided, the type of the default value is used. If no default value is provided, the type is assumed to be STRING. Unless a name is explicitly specified, the name of the parameter is the first long option defined; otherwise the first short one is used. By default, options are not required, however to make an option required, simply pass in required=True as an argument to the decorator.
 
@@ -171,7 +171,7 @@ $ dots --n=2
 ```
 **... Section continues for another page...**
 ````
-* [Basic options after](https://click.palletsprojects.com/en/stable/options/#basic-example)
+* [Basic options after](https://click.palletsprojects.com/en/stable/options/#basic-example):
 ````{toggle}
 A simple click.Option takes one option name. By default, it’s assumed that the decorated function argument is not required and the expected type is str. If the decorated function takes a positional argument but the option is not passed with the command, then None is passed.
 ```{code-block} python
@@ -233,7 +233,7 @@ Options:
 ### Diataxis
 * This usually requires multiple passes.
 * In the first pass, for each subsection (the smallest section that has a heading), decide if it belongs in reference, concepts, guides, or tutorials, then rewrite it to more cleanly fit in that section. Some subsections may not need rewriting. If multiple people are working on it, then you may need an issue to keep track of this.
-* In the second pass, do a reorg by type. Then mark the holes that appear with issues.
+* In the second pass, do a reorg by type. Then open issues for any gaps that appear.
 * **Payoff:** Really good, but things were a bit messy until the second pass was done.
 ### More skimmable
 * This was mostly just adding auto-generated tables of contents provided by MyST and replacing paragraphs with bullets and tables.
@@ -242,6 +242,7 @@ Options:
 ## Q and A
 These are questions I was asked after writing this:
 * Since writing this, did you see a reduction in issues about how the API worked?
+
 In short, I don't think so. People tend to only open an issue if docs are wrong or a bug has been found. If people don't know because docs are missing, they seem to just figure it out themselves and never post to the repo.
 
 ## Postscript
