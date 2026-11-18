@@ -34,3 +34,4 @@ Talks
    about.md
 
    talks/qr_code.md
+   talks/bio.md
